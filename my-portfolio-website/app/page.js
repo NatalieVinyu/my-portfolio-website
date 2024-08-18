@@ -1,6 +1,13 @@
+import Navbar from './/navbar/page'
+import Homepage from './/home/page'
+
 
 export default function Home() {
   return (
-    <h1>Hello</h1>
+    <div>
+      <Navbar />
+      <Homepage />
+    </div>
+    
   );
 }
