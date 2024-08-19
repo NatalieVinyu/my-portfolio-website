@@ -1,5 +1,6 @@
-import Navbar from './/navbar/page'
-import Homepage from './/home/page'
+import Navbar from './/navbar/page';
+import Homepage from './/home/page';
+import About from './/about/page';
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <div>
       <Navbar />
       <Homepage />
+      <About />
     </div>
     
   );
