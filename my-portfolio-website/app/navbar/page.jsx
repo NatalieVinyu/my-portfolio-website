@@ -1,14 +1,14 @@
 import React from 'react';
-import Link from 'next/link'
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
     <div className='fixed w-full bg-transparent shadow-lg p-6'>
-      <nav className='flex justify-center'>
-        <div className='container'>
-          <ul className='flex justify-center space-x-4'>
+      <nav className=''>
+        
+          <ul className='flex space-x-20 justify-end'>
             <li>
-              <Link href='/'>
+              <Link href='about/page'>
                 About me
               </Link>
             </li>
@@ -23,7 +23,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        
       </nav>
     </div>
   )
