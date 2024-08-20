@@ -3,9 +3,11 @@ import Contact from '../contact/page';
 
 const footer = () => {
   return (
-    <div className='bg-blue-950 text-white'>
-      footer
-    <Contact />
+    <div className='text-white'>
+      <Contact />
+      <div className='bg-blue-950'>
+        2024
+      </div>    
     </div>
   )
 }
