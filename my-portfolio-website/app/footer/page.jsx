@@ -5,8 +5,8 @@ const footer = () => {
   return (
     <div className='text-white'>
       <Contact />
-      <div className='bg-blue-950'>
-        2024
+      <div className='flex justify-center bg-blue-950'>
+        © Natalie Vinyu 2024
       </div>    
     </div>
   )
