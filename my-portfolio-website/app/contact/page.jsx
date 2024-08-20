@@ -1,19 +1,23 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faenvelope  } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
-const contact = () => {
+const Contact = () => {
   return (
-    <div id='contact' className='bg-blue-900 p-4'>
+    <div id='contact' className='bg-blue-400 text-black p-6'>
       <h1>Contact me at</h1>
         <div className='grid grid-cols-1'>
-        <FontAwesomeIcon 
-            icon={faenvelope}  
-            className='w-10 h-10 hover:w-15 h-15' 
-          />
+          <div className='flex'>
+            <FontAwesomeIcon 
+            icon={faEnvelope}  
+            className='w-5 h-5' 
+            />
+            <p className='ml-3'>Email: natalievinyu@gmail.com</p>
+          </div>
+        
         </div>
     </div>
   )
 }
 
-export default contact;
+export default Contact;
