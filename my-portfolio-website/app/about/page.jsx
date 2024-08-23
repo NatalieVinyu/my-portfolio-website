@@ -15,7 +15,7 @@ const About = () => {
       </div>
 
       <div className='pb-8'>
-        <div className='flex items-center space-x-16'>
+        <div className='flex items-center justify-center space-x-16'>
           <FontAwesomeIcon 
             icon={faHtml5}  
             className='text-orange-600 w-10 h-10 hover:w-14 h-14 transition-transform duration-300' 
