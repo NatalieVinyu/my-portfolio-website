@@ -4,8 +4,8 @@ import { faHtml5, faCss3Alt, faJs, faReact  } from '@fortawesome/free-brands-svg
 
 const About = () => {
   return (
-    <div id='about' className='container mx-auto pt-16 min-h-screen'>
-      <div className='flex justify-center items-center'>
+    <div id='about' className='container mx-auto min-h-screen flex flex-col justify-between'>
+      <div className='flex justify-center items-center flex-grow'>
         <div className='grid grid-cols-2 gap-4'>
           <p className='font-sans'>
             <span className='text-2xl'>Hello! I am Natalie Vinyu, and I’m a passionate self-taught front-end developer.</span>
@@ -13,9 +13,9 @@ const About = () => {
             My journey into web development began out of sheer curiosity, which quickly grew into a full-fledged passion. I’ve spent countless hours honing my skills in HTML, CSS, JavaScript, and React, building everything from simple landing pages to dynamic, responsive web applications. I’m always eager to learn and embrace new challenges, and I thrive in environments where creativity meets technology. I’m excited to bring my self-driven, problem-solving mindset to new projects and collaborate with like-minded individuals to create impactful digital experiences.</p>
         </div>
       </div>
-           
-      <div className='p-8 justify-between'>
-        <div className='flex items-center justify-center space-x-10'>
+
+      <div className='pb-8'>
+        <div className='flex items-center space-x-16'>
           <FontAwesomeIcon 
             icon={faHtml5}  
             className='text-orange-600 w-10 h-10 hover:w-14 h-14 transition-transform duration-300' 
