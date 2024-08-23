@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({ title, content }) => {
   return (
-    <div id='mywork' className='container mx-auto'>
+    <div className='container mx-auto'>
       <div className='flex align-center items-center'>      
         <div className='max-w-sm rounded overflow-hidden shadow-lg bg-white m-4'>        
             <div className='px-6 py-4'>
