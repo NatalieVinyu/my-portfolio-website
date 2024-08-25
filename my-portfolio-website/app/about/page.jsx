@@ -18,19 +18,19 @@ const About = () => {
         <div className='flex items-center justify-center space-x-16'>
           <FontAwesomeIcon 
             icon={faHtml5}  
-            className='text-orange-600 w-10 h-10 hover:w-14 h-14 transition-transform duration-300' 
+            className='text-orange-600 w-8 h-8 hover:w-14 h-14 transition-transform duration-300' 
           />
           <FontAwesomeIcon
             icon={faCss3Alt}
-            className='text-blue-600 w-10 h-10 hover:w-14 h-14 transition-transform duration-300' 
+            className='text-blue-600 w-8 h-8 hover:w-14 h-14 transition-transform duration-300' 
            />
           <FontAwesomeIcon 
            icon={faJs} 
-           className='text-yellow-300 w-10 h-10 hover:w-14 h-14 transition-transform duration-300' 
+           className='text-yellow-300 w-8 h-8 hover:w-14 h-14 transition-transform duration-300' 
            />
           <FontAwesomeIcon 
            icon={faReact} 
-           className='text-blue-400 w-10 h-10 hover:w-14 h-14 transition-transform duration-300' 
+           className='text-blue-400 w-8 h-8 hover:w-14 h-14 transition-transform duration-300' 
            />
         </div>       
       </div>   
