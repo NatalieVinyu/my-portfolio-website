@@ -4,7 +4,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
   return (
-    <div id='contact' className='bg-blue-400 text-black p-6'>
+    <div id='contact' className='container mx-auto min-h-screen flex flex-col justify-between p-16'>
       <h1>Contact me at</h1>
         <div className='grid grid-cols-1'>
           <div className='flex'>
