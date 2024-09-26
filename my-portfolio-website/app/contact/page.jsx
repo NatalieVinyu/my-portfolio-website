@@ -1,26 +1,36 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = () => {
   return (
     <div id='contact' className='container mx-auto min-h-screen p-16'>
-      <h1>You can reach me at</h1>
+      <h1>Let's work together!</h1>
       <div>
         <form>
-          form here
+          <div>
+            <label>Full Name:</label>
+            <input
+            type='text'
+            id='name'
+            /> 
+          </div>
+
+          <div>
+            <label>Email:</label>
+            <input
+            type='email'
+            id='name'
+            /> 
+          </div>
+
+          <div>
+            <textarea 
+            id='message'/> 
+          </div>
+          <button className='bg-blue-500 py-2 px-4 rounded hover:bg-blue-700' type='submit'>Submit</button>
+
         </form>
       </div>
-        <div className='grid grid-cols-1'>
-          <div className='flex'>
-            <FontAwesomeIcon 
-            icon={faEnvelope}  
-            className='w-5 h-5' 
-            />
-            <p className='ml-3'>Email: natalievinyu@gmail.com</p>
-          </div>
         
-        </div>
     </div>
   )
 }
