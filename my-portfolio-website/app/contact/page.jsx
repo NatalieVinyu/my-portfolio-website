@@ -8,7 +8,7 @@ const Contact = () => {
           <div className='font-sans'>
             <h1>Let's work together!</h1>
           </div>
-          <div>
+          <div className='hover:animate-slide-in-right'>
             <form className='max-w-lg mx-auto p-4 bg-white shadow-md rounded-lg'>
               <div className='mb-4'>
                 <label className='block text-grey-700'>Full Name:</label>

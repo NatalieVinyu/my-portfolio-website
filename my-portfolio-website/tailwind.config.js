@@ -13,14 +13,19 @@ module.exports = {
         sans: ['Questrial'],
         mono: ['Reddit Mono']
       },
-      "slide-in-left": {
-        "0%": {
-              visibility: "visible",
-              transform: "translate 3d(-100%,0,0)"
-        },
-        "100%": {
-          transform:"translate 3d(0,0,0)"
-        }
+      animation: {
+        'slide-in-right': 'slide-in-right 0.5s ease-out forwards',
+      },
+      keyframes: {
+        'slide-in-right': {
+                    "0%": {
+                        visibility: "visible",
+                        transform: "translate3d(100%, 0, 0)",
+                    },
+                    "100%": {
+                        transform: "translate3d(0, 0, 0)",
+                    },
+                }
       }
       
     },
