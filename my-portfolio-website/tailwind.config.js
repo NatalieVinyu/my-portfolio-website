@@ -14,7 +14,7 @@ module.exports = {
         mono: ['Reddit Mono']
       },
       animation: {
-        'slide-in-right': 'slide-in-right 0.5s ease-out forwards',
+        'slide-in-right': 'slide-in-right 0.2s ease-out forwards',
       },
       keyframes: {
         'slide-in-right': {
