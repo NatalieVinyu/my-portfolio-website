@@ -4,7 +4,7 @@ import { faHtml5, faCss3Alt, faJs, faReact  } from '@fortawesome/free-brands-svg
 
 const About = () => {
   return (
-    <div id='about' className='container mx-auto min-h-screen flex flex-col justify-between'>
+    <div id='about' className='container mx-auto flex flex-col justify-between'>
       <div className='flex justify-center items-center flex-grow'>
         <div className='grid grid-cols-1 gap-4'>
           <p className='font-sans'>
@@ -21,11 +21,7 @@ const About = () => {
                 </svg>
               </a>
             </div>
-            
-
-            <div className='flex justify-center items-center'>
-              <img src="/IMG_2575.jpeg" alt="Natalie Vinyu" className='rounded-lg shadow-lg w-80 max-w-sm' />
-            </div>
+                   
         </div>
         
       </div>
